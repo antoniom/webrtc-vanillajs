@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Sample WebRTC Chat</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <main id="container">
+            <h1>BETA Chat</h1>
+            <div id="text-chat">
+                <div id="chat-window"></div>
+                <form>
+                    <input type="text" placeholder="Type a message...">
+                    <button id="sendMessage" type="submit">Send!</button>
+                    <button id="listClients" type="button">Client List</button>
+                </form>
+            </div>
+        </main>
+        <script src="./node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script type="text/javascript" src="main.js" charset="utf-8"></script>
+        <script type="text/javascript" src="./node_modules/webrtc-adapter/out/adapter.js" charset="UTF-8"></script>
+        <script type="text/javascript" src="./node_modules/socket.io-client/dist/socket.io.js" charset="UTF-8"></script>
+    </body>
+</html>

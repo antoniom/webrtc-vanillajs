@@ -10,4 +10,4 @@ The implementation is based on a tutorial found on [medium.com](https://medium.c
  openssl req -new -x509 -sha256 -newkey rsa:2048 -nodes     -keyout example-com.key.pem -days 365 -out example-com.cert.pem
  ```
  - Run the server using ```node server.js```
- - Open your browser on ```https://localhost/```and skip the warnings hsown.
+ - Open your browser on ```https://localhost:3000/``` and skip the warnings shown.
